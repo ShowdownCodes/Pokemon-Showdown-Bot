@@ -29,6 +29,12 @@ exports.commands = {
 	 * Example commands below.
 	 * Feel free to remove them and add your own.
 	 */
+	tell: 'say',
+	say: function(arg, by, room, con) {
+		if (!this.hasRank(by, '&#~')) return false;
+		this.say(con, room, arg + ' (' + by + ' said this)');
+	},
+	
 	joke: function(arg, by, room, con) {
 		var self = this;
 
