@@ -31,8 +31,8 @@ exports.commands = {
 	 */
 	tell: 'say',
 	say: function(arg, by, room, con) {
-		if (!this.hasRank(by, '&#~')) return false;
-		this.say(con, room, arg + ' (' + by + ' said this)');
+		if (!this.hasRank(by, '+%@&#~')) return false;
+		this.say(con, room, arg);
 	},
 	
 	joke: function(arg, by, room, con) {
