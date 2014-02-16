@@ -12,7 +12,7 @@ exports.commands = {
 	 * It is recommended that you keep the following functions
 	 */
 	about: function(arg, by, room, con) {
-		var text = '**Welcome to the Voyage Server!** This bot was made by macrarazy, the Server Owner. Enjoy your stay!';
+		var text = '**Welcome to the Sapphire Server!** This bot was made by macrarazy, a Server Coder and Admin. Enjoy your stay!';
 		this.say(con, room, text);
 	},
 	reload: function(arg, by) {
