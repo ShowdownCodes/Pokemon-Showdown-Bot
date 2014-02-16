@@ -22,7 +22,7 @@ exports.pass = 'sapphbot';
 
 // The rooms that should be joined.
 // Joining Smogon's Showdown's Lobby is not allowed.
-exports.rooms = ['Lobby', 'Bot Land'];
+exports.rooms = ['Lobby', 'Sapph\'s Hideout'];
 
 // The character text should start with to be seen as a command.
 // Note that using / and ! might be 'dangerous' since these are used in
