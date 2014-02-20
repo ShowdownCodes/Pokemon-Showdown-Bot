@@ -29,7 +29,12 @@ exports.commands = {
 	 * Example commands below.
 	 * Feel free to remove them and add your own.
 	 */
-	tell: 'say',
+	doesarchersuck: function(arg, by, room, con) {
+		if (!this.hasRank(by, '~')) return false;
+		var text = '**Yes!** Archer sucks. :3'
+		this.say(con, roo, text);
+	},
+
 	say: function(arg, by, room, con) {
 		if (!this.hasRank(by, '%@&#~')) return false;
 		this.say(con, room, arg);
