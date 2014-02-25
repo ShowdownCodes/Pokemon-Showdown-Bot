@@ -17,12 +17,12 @@ exports.serverid = 'sapphire';
 
 // The nick and password to log in with
 // If no password is required, leave pass empty
-exports.nick = 'Sapphire Bot';
+exports.nick = 'Sapphire-Kun';
 exports.pass = 'sapphbot';
 
 // The rooms that should be joined.
 // Joining Smogon's Showdown's Lobby is not allowed.
-exports.rooms = ['Lobby', '2183758sjdio'];
+exports.rooms = ['Lobby', 'Staff', '2183758sjdio', 'The Sora League', 'macslab'];
 
 // The character text should start with to be seen as a command.
 // Note that using / and ! might be 'dangerous' since these are used in
